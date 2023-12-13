@@ -301,7 +301,6 @@
   line-height: 24px;
 }
 .home-first {
-  flex: space-between;
   width: 1410px;
   height: 468px;
   display: flex;
