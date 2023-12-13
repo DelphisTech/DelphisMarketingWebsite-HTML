@@ -32,6 +32,10 @@
   color: var(--dl-color-gray-800);
   line-height: 1.6;
 }
+.product-card1-root-class-name {
+  width: 70%;
+  align-self: center;
+}
 @media(max-width: 767px) {
   .product-card1-feature-card {
     flex-direction: row;
