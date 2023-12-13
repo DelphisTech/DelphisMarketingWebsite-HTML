@@ -415,6 +415,7 @@
 .home-content1 {
   gap: var(--dl-space-space-threeunits);
   flex: 1;
+  width: var(--dl-size-size-maxwidth);
   height: 689px;
   display: flex;
   align-items: flex-start;
