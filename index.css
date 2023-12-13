@@ -10,7 +10,7 @@
   background-color: var(--dl-color-gray-white);
 }
 .product-card-icon {
-  fill: var(--dl-color-primary1-blue80);
+  fill: #aa82ff;
   width: 2rem;
   height: 2rem;
   flex-shrink: 0;
@@ -58,7 +58,7 @@
   background-color: var(--dl-color-gray-white);
 }
 .product-card1-icon {
-  fill: var(--dl-color-primary1-blue80);
+  fill: #aa82ff;
   width: 2rem;
   height: 2rem;
   flex-shrink: 0;
@@ -364,7 +364,7 @@
 .home-text12 {
   width: 605px;
   height: 60px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
 }
 .home-note1 {
@@ -389,10 +389,15 @@
   line-height: 27px;
 }
 .home-image02 {
-  width: 396px;
+  width: 369px;
+  box-shadow: 100px 10px 10px 3px #d4d4d4;
   object-fit: cover;
   aspect-ratio: 1;
+  border-color: #aa82ff;
+  border-style: dashed;
+  border-width: 5px;
   border-radius: Radius10;
+  border-right-width: 0px;
   border-top-left-radius: var(--dl-radius-radius-round);
   border-bottom-left-radius: var(--dl-radius-radius-round);
 }
