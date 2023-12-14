@@ -102,6 +102,15 @@
 .about-link1 {
   text-decoration: none;
 }
+.about-link2 {
+  text-decoration: none;
+}
+.about-link3 {
+  text-decoration: none;
+}
+.about-link4 {
+  text-decoration: none;
+}
 .about-burger-menu {
   display: none;
   align-items: center;
@@ -659,6 +668,7 @@
 .about-text39 {
   color: #000000;
   font-size: 3rem;
+  align-self: center;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .about-container15 {
@@ -666,6 +676,70 @@
   display: grid;
   grid-gap: var(--dl-space-space-twounits);
   grid-template-columns: 1fr 1fr;
+}
+.about-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fiveunits);
+  background-color: #AA82FF;
+}
+.about-content1 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+}
+.about-details {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: column;
+}
+.about-title {
+  width: 100%;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px;
+}
+.about-description {
+  width: 100%;
+  font-size: 18px;
+  line-height: 27px;
+}
+.about-socials {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+  flex-direction: row;
+}
+.about-link5 {
+  display: contents;
+}
+.about-image1 {
+  text-decoration: none;
+}
+.about-link6 {
+  display: contents;
+}
+.about-image2 {
+  text-decoration: none;
+}
+.about-copyright {
+  width: 100%;
+  font-size: 14px;
+  line-height: 21px;
 }
 @media(max-width: 991px) {
   .about-text13 {
@@ -939,6 +1013,26 @@
   }
   .about-container15 {
     grid-template-columns: 1fr;
+  }
+  .about-footer {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .about-content1 {
+    gap: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-oneandhalfunits);
+    padding-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .about-title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .about-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .about-socials {
+    gap: var(--dl-space-space-twounits);
   }
 }
 @media(max-width: 479px) {

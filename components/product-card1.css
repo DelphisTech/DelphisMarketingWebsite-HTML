@@ -46,6 +46,10 @@
   align-self: center;
   background-color: #eff0f2;
 }
+.product-card1-root-class-name3 {
+  width: 70%;
+  align-self: center;
+}
 @media(max-width: 767px) {
   .product-card1-feature-card {
     flex-direction: row;
