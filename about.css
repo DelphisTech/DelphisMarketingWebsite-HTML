@@ -672,9 +672,9 @@
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .about-container15 {
-  width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-twounits);
+  align-self: stretch;
   grid-template-columns: 1fr 1fr;
 }
 .about-footer {
